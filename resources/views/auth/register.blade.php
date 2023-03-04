@@ -12,19 +12,19 @@
             <h2 class="text-center">Create Your Account</h2>
             <form class="text-left clearfix" action="index.html">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="First Name">
+                <input type="text" class="form-control" name="fname" placeholder="First Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Last Name">
+                <input type="text" class="form-control" name="lname" placeholder="Last Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username">
+                <input type="text" class="form-control" name="uname" placeholder="Username">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control" name="email" placeholder="Email">
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" name="password" placeholder="Password">
               </div>
               <div class="form-group">
                 <input type="password" class="form-control" name="password_confirmation" placeholder="Confirm Password">
